@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+    font-size: 1.5em;
+    background: lightgray;
+    margin: 3em;
+}
+
+.movie {
+    display: block;
+}
+
+li {
+    display: inline;
+    margin: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: lightseagreen;
+    font-size: 1.5em;
+}
+
+a:hover {
+    color: lightsalmon;
+}
+

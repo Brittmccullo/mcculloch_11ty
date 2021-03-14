@@ -1,0 +1,7 @@
+<nav>
+    <ul>
+    {% for page in collections.page -%}
+        <li style="list-style:none;"><a href="{{ page.url }}">{{ page.data.title }}</a></li>
+    {% endfor -%}
+    </ul>
+</nav>
